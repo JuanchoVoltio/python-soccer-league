@@ -1,3 +1,3 @@
 # python-soccer-league
 
-Edgar Augusto Rojas
+Edgar Augusto Rojas Urrego
