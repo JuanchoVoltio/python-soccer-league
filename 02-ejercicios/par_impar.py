@@ -1,6 +1,6 @@
-numero = int(input("Ingrese un numero entero que desea saber si es par: "))
+numero = int(input("Ingrese un número entero que desea saber si es par: "))
 
 if numero % 2 == 0:
-    print(str(numero) + ' es un número par!')
+    print("{0} es un número par!".format(numero))
 else:
-    print(str(numero) + ' es un número impar!')
+    print("{0} es un número impar".format(numero))

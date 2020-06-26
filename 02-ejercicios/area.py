@@ -4,5 +4,5 @@ radio = float(input("Ingrese el radio del circulo en centimetro. Para calcular s
 
 area = round((radio**2) * round(math.pi,4),2)
 
-print("El area de un circulo con radio "+ str(radio) + " cm es: " + str(area) + " cm o " + str(area/100) + " m")
 
+print("El area de un circulo con radio {0} cm es: {1} cm o {2} m".format(radio, area, area/100))
