@@ -9,14 +9,11 @@ def recursive_adition(num):
 
 
 def cuenta_digitos(n):
-    #result = cuenta_digitos(n/10) 
-    result = n/10
-    if result > 0:
-        cuenta_digitos(n/10)
-        print (result) 
+    if n<10:
+        return 1
+    else:
+        return 1 + cuenta_digitos(n/10)
 
 
-
-
-print(cuenta_digitos(100))
+print(cuenta_digitos(10))
     

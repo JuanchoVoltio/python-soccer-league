@@ -1,0 +1,5 @@
+Clase   -> Cuentas de ahorro, Cuentas corriente y Tarjetas débito 
+Objetos -> Trimestral, Mensual, Sobregiros 
+
+
+
